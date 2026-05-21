@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Yansoul · Republic of Yansoul postage stamp" style="font-family: 'Iowan Old Style', 'Palatino', 'Georgia', 'Times New Roman', serif;">
+  <defs>
+    <pattern id="paperBg" patternUnits="userSpaceOnUse" width="200" height="200">
+      <rect width="200" height="200" fill="#e6dcc0"/>
+      <circle cx="40" cy="30" r="1.1" fill="#b8a87a" opacity="0.4"/>
+      <circle cx="120" cy="80" r="0.9" fill="#b8a87a" opacity="0.4"/>
+      <circle cx="170" cy="150" r="1.2" fill="#b8a87a" opacity="0.4"/>
+      <circle cx="60" cy="170" r="0.8" fill="#b8a87a" opacity="0.4"/>
+      <circle cx="190" cy="40" r="0.7" fill="#b8a87a" opacity="0.4"/>
+      <circle cx="100" cy="125" r="0.6" fill="#b8a87a" opacity="0.4"/>
+    </pattern>
+    <pattern id="stampPaper" patternUnits="userSpaceOnUse" width="220" height="220">
+      <rect width="220" height="220" fill="#fff5e1"/>
+      <circle cx="40" cy="30" r="0.8" fill="#d4c08a" opacity="0.35"/>
+      <circle cx="120" cy="80" r="0.6" fill="#d4c08a" opacity="0.35"/>
+      <circle cx="170" cy="150" r="0.9" fill="#d4c08a" opacity="0.35"/>
+      <circle cx="60" cy="170" r="0.7" fill="#d4c08a" opacity="0.35"/>
+      <circle cx="100" cy="190" r="0.5" fill="#d4c08a" opacity="0.35"/>
+    </pattern>
+    <clipPath id="sceneClip">
+      <circle cx="0" cy="0" r="62"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#paperBg)"/>
+
+  <g transform="translate(120, 50)">
+    <rect width="560" height="400" fill="url(#stampPaper)" stroke="#3a2a1c" stroke-width="1.5"/>
+
+    <g fill="#e6dcc0">
+      <circle cx="0" cy="0" r="7.5"/><circle cx="28" cy="0" r="7.5"/><circle cx="56" cy="0" r="7.5"/><circle cx="84" cy="0" r="7.5"/><circle cx="112" cy="0" r="7.5"/><circle cx="140" cy="0" r="7.5"/><circle cx="168" cy="0" r="7.5"/><circle cx="196" cy="0" r="7.5"/><circle cx="224" cy="0" r="7.5"/><circle cx="252" cy="0" r="7.5"/><circle cx="280" cy="0" r="7.5"/><circle cx="308" cy="0" r="7.5"/><circle cx="336" cy="0" r="7.5"/><circle cx="364" cy="0" r="7.5"/><circle cx="392" cy="0" r="7.5"/><circle cx="420" cy="0" r="7.5"/><circle cx="448" cy="0" r="7.5"/><circle cx="476" cy="0" r="7.5"/><circle cx="504" cy="0" r="7.5"/><circle cx="532" cy="0" r="7.5"/><circle cx="560" cy="0" r="7.5"/>
+      <circle cx="0" cy="400" r="7.5"/><circle cx="28" cy="400" r="7.5"/><circle cx="56" cy="400" r="7.5"/><circle cx="84" cy="400" r="7.5"/><circle cx="112" cy="400" r="7.5"/><circle cx="140" cy="400" r="7.5"/><circle cx="168" cy="400" r="7.5"/><circle cx="196" cy="400" r="7.5"/><circle cx="224" cy="400" r="7.5"/><circle cx="252" cy="400" r="7.5"/><circle cx="280" cy="400" r="7.5"/><circle cx="308" cy="400" r="7.5"/><circle cx="336" cy="400" r="7.5"/><circle cx="364" cy="400" r="7.5"/><circle cx="392" cy="400" r="7.5"/><circle cx="420" cy="400" r="7.5"/><circle cx="448" cy="400" r="7.5"/><circle cx="476" cy="400" r="7.5"/><circle cx="504" cy="400" r="7.5"/><circle cx="532" cy="400" r="7.5"/><circle cx="560" cy="400" r="7.5"/>
+      <circle cx="0" cy="28" r="7.5"/><circle cx="0" cy="56" r="7.5"/><circle cx="0" cy="84" r="7.5"/><circle cx="0" cy="112" r="7.5"/><circle cx="0" cy="140" r="7.5"/><circle cx="0" cy="168" r="7.5"/><circle cx="0" cy="196" r="7.5"/><circle cx="0" cy="224" r="7.5"/><circle cx="0" cy="252" r="7.5"/><circle cx="0" cy="280" r="7.5"/><circle cx="0" cy="308" r="7.5"/><circle cx="0" cy="336" r="7.5"/><circle cx="0" cy="364" r="7.5"/><circle cx="0" cy="392" r="7.5"/>
+      <circle cx="560" cy="28" r="7.5"/><circle cx="560" cy="56" r="7.5"/><circle cx="560" cy="84" r="7.5"/><circle cx="560" cy="112" r="7.5"/><circle cx="560" cy="140" r="7.5"/><circle cx="560" cy="168" r="7.5"/><circle cx="560" cy="196" r="7.5"/><circle cx="560" cy="224" r="7.5"/><circle cx="560" cy="252" r="7.5"/><circle cx="560" cy="280" r="7.5"/><circle cx="560" cy="308" r="7.5"/><circle cx="560" cy="336" r="7.5"/><circle cx="560" cy="364" r="7.5"/><circle cx="560" cy="392" r="7.5"/>
+    </g>
+
+    <rect x="22" y="22" width="516" height="356" fill="none" stroke="#7a1f1f" stroke-width="1.5"/>
+    <rect x="30" y="30" width="500" height="340" fill="none" stroke="#7a1f1f" stroke-width="0.5"/>
+
+    <g fill="#7a1f1f">
+      <circle cx="40" cy="40" r="3"/>
+      <circle cx="520" cy="40" r="3"/>
+      <circle cx="40" cy="360" r="3"/>
+      <circle cx="520" cy="360" r="3"/>
+    </g>
+
+    <text x="280" y="60" font-size="11" letter-spacing="6" fill="#7a1f1f" text-anchor="middle" font-weight="700">REPUBLIC OF YANSOUL</text>
+    <line x1="80" y1="72" x2="480" y2="72" stroke="#7a1f1f" stroke-width="0.5"/>
+
+    <g transform="translate(135, 200)">
+      <circle cx="0" cy="0" r="78" fill="none" stroke="#7a1f1f" stroke-width="2"/>
+      <circle cx="0" cy="0" r="66" fill="#fff5e1" stroke="#7a1f1f" stroke-width="0.5"/>
+
+      <g fill="#7a1f1f">
+        <circle cx="0" cy="-72" r="2"/>
+        <circle cx="72" cy="0" r="2"/>
+        <circle cx="0" cy="72" r="2"/>
+        <circle cx="-72" cy="0" r="2"/>
+        <circle cx="51" cy="-51" r="1.4"/>
+        <circle cx="51" cy="51" r="1.4"/>
+        <circle cx="-51" cy="51" r="1.4"/>
+        <circle cx="-51" cy="-51" r="1.4"/>
+      </g>
+
+      <g clip-path="url(#sceneClip)">
+        <rect x="-66" y="-66" width="132" height="60" fill="#e7d8b5"/>
+        <circle cx="38" cy="-40" r="9" fill="none" stroke="#7a1f1f" stroke-width="0.8"/>
+        <path d="M 38 -49 A 9 9 0 0 1 38 -31" fill="#7a1f1f" opacity="0.25"/>
+        <circle cx="-30" cy="-50" r="0.8" fill="#7a1f1f"/>
+        <circle cx="-44" cy="-30" r="0.7" fill="#7a1f1f"/>
+        <circle cx="20" cy="-58" r="0.7" fill="#7a1f1f"/>
+        <rect x="-66" y="-6" width="132" height="72" fill="#d8c192"/>
+        <g stroke="#7a1f1f" stroke-width="0.6" fill="none">
+          <path d="M -66 5 Q -50 2 -34 5 Q -18 8 -2 5 Q 14 2 30 5 Q 46 8 62 5"/>
+          <path d="M -66 18 Q -50 15 -34 18 Q -18 21 -2 18 Q 14 15 30 18 Q 46 21 62 18"/>
+          <path d="M -66 32 Q -50 29 -34 32 Q -18 35 -2 32 Q 14 29 30 32 Q 46 35 62 32"/>
+          <path d="M -66 46 Q -50 43 -34 46 Q -18 49 -2 46 Q 14 43 30 46 Q 46 49 62 46"/>
+        </g>
+        <g transform="translate(-44, 0)">
+          <path d="M -7 0 L 7 0 L 5 4 L -5 4 Z" fill="#7a1f1f"/>
+          <line x1="0" y1="0" x2="0" y2="-11" stroke="#7a1f1f" stroke-width="0.8"/>
+          <path d="M 0 -11 L 0 -2 L 5 -4 Z" fill="#7a1f1f" opacity="0.6"/>
+        </g>
+        <path d="M -22 -6 L 22 -6 L 30 6 L -30 6 Z" fill="#7a1f1f" opacity="0.9"/>
+        <rect x="-8" y="-44" width="16" height="38" fill="#fff5e1" stroke="#7a1f1f" stroke-width="1"/>
+        <rect x="-8" y="-36" width="16" height="5" fill="#7a1f1f"/>
+        <rect x="-8" y="-24" width="16" height="5" fill="#7a1f1f"/>
+        <rect x="-8" y="-12" width="16" height="5" fill="#7a1f1f"/>
+        <rect x="-10" y="-50" width="20" height="6" fill="#7a1f1f"/>
+        <rect x="-6" y="-60" width="12" height="10" fill="#fff5e1" stroke="#7a1f1f" stroke-width="1"/>
+        <path d="M 0 -55 L -32 -64 L -32 -46 Z" fill="#7a1f1f" opacity="0.22"/>
+        <path d="M 0 -55 L 32 -64 L 32 -46 Z" fill="#7a1f1f" opacity="0.22"/>
+        <circle cx="0" cy="-55" r="2" fill="#7a1f1f"/>
+        <path d="M -6 -60 L 0 -68 L 6 -60 Z" fill="#7a1f1f"/>
+        <line x1="0" y1="-68" x2="0" y2="-73" stroke="#7a1f1f" stroke-width="0.8"/>
+      </g>
+
+      <text x="0" y="106" font-size="9" letter-spacing="3" fill="#7a1f1f" text-anchor="middle">A SOLITARY BEACON · MMXIX</text>
+    </g>
+
+    <g transform="translate(255, 110)">
+      <text x="0" y="0" font-size="42" font-weight="900" fill="#7a1f1f" font-style="italic">YANSOUL</text>
+      <text x="0" y="22" font-size="10" letter-spacing="2.5" fill="#3a2a1c">SHIPS SOFTWARE · WRITES TESTS · READS LLMS</text>
+
+      <line x1="0" y1="38" x2="260" y2="38" stroke="#7a1f1f" stroke-width="0.5"/>
+
+      <text x="0" y="62" font-size="10" letter-spacing="2.5" fill="#7a1f1f" font-weight="700">PRODUCTION RECORD</text>
+      <text x="0" y="84" font-size="13" fill="#3a2a1c">17   repositories produced</text>
+      <text x="0" y="103" font-size="13" fill="#3a2a1c">164  stars collected abroad</text>
+      <text x="0" y="122" font-size="13" fill="#3a2a1c">005  citizens following closely</text>
+      <text x="0" y="141" font-size="13" fill="#3a2a1c">∞    commits to ship</text>
+
+      <line x1="0" y1="158" x2="260" y2="158" stroke="#7a1f1f" stroke-width="0.5"/>
+
+      <text x="0" y="182" font-size="10" letter-spacing="2.5" fill="#7a1f1f" font-weight="700">DELIVER TO</text>
+      <text x="0" y="204" font-size="13" fill="#3a2a1c">github.com/Yansoul</text>
+      <text x="0" y="222" font-size="13" fill="#3a2a1c">feishu · the open internet</text>
+    </g>
+
+    <g transform="translate(395, 320)">
+      <rect x="0" y="0" width="100" height="42" fill="#7a1f1f"/>
+      <text x="50" y="29" font-size="22" font-weight="900" fill="#fff5e1" text-anchor="middle" font-style="italic">★ 164</text>
+    </g>
+
+    <line x1="80" y1="380" x2="370" y2="380" stroke="#7a1f1f" stroke-width="0.5"/>
+    <text x="40" y="396" font-size="9" letter-spacing="2.5" fill="#3a2a1c">STAMP Nº 017</text>
+    <text x="240" y="396" font-size="9" letter-spacing="2.5" fill="#3a2a1c" text-anchor="middle">EST. MMXIX</text>
+  </g>
+
+  <g transform="translate(625, 365)" opacity="0.55">
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#3a2a1c" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="52" fill="none" stroke="#3a2a1c" stroke-width="0.7"/>
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#3a2a1c" stroke-width="0.5"/>
+    <text x="0" y="-34" font-size="9" fill="#3a2a1c" text-anchor="middle" letter-spacing="2.5">DELIVERED</text>
+    <text x="0" y="-12" font-size="9" fill="#3a2a1c" text-anchor="middle" letter-spacing="1">21 MAY</text>
+    <text x="0" y="6" font-size="18" font-weight="900" fill="#3a2a1c" text-anchor="middle">2026</text>
+    <text x="0" y="22" font-size="9" fill="#3a2a1c" text-anchor="middle" letter-spacing="1">YANSOUL</text>
+    <text x="0" y="44" font-size="8" fill="#3a2a1c" text-anchor="middle" letter-spacing="2">POST OFFICE</text>
+    <g stroke="#3a2a1c" stroke-width="2" fill="none" opacity="0.4">
+      <line x1="-95" y1="-25" x2="-65" y2="-30"/>
+      <line x1="65" y1="-30" x2="95" y2="-25"/>
+      <line x1="-95" y1="30" x2="-65" y2="25"/>
+      <line x1="65" y1="25" x2="95" y2="30"/>
+    </g>
+  </g>
+</svg>
