@@ -5,28 +5,34 @@
       .mono  { font-family: 'Courier New', 'Courier', 'Menlo', monospace; }
 
       .row { transform-box: fill-box; transform-origin: center; opacity: 0; }
-      .r1 { animation: stamp-drop .55s cubic-bezier(.2,.7,.3,1.2) .25s forwards; }
-      .r2 { animation: stamp-drop .55s cubic-bezier(.2,.7,.3,1.2) .85s forwards; }
-      .r3 { animation: stamp-drop .55s cubic-bezier(.2,.7,.3,1.2) 1.45s forwards; }
-      .r4 { animation: stamp-drop .55s cubic-bezier(.2,.7,.3,1.2) 2.05s forwards; }
-      .r5 { animation: stamp-drop .55s cubic-bezier(.2,.7,.3,1.2) 2.65s forwards; }
+      .r1 { animation: stamp-drop-loop 10s cubic-bezier(.2,.7,.3,1.2) .25s infinite; }
+      .r2 { animation: stamp-drop-loop 10s cubic-bezier(.2,.7,.3,1.2) .85s infinite; }
+      .r3 { animation: stamp-drop-loop 10s cubic-bezier(.2,.7,.3,1.2) 1.45s infinite; }
+      .r4 { animation: stamp-drop-loop 10s cubic-bezier(.2,.7,.3,1.2) 2.05s infinite; }
+      .r5 { animation: stamp-drop-loop 10s cubic-bezier(.2,.7,.3,1.2) 2.65s infinite; }
 
-      @keyframes stamp-drop {
-        0%   { opacity: 0;   transform: scale(1.7) rotate(-3.5deg) translateY(-10px); }
-        55%  { opacity: 1;   transform: scale(.94) rotate(.6deg)   translateY(2px); }
-        78%  { opacity: 1;   transform: scale(1.03) rotate(-.3deg) translateY(0); }
-        100% { opacity: 1;   transform: scale(1)   rotate(0)        translateY(0); }
+      @keyframes stamp-drop-loop {
+        0%    { opacity: 0;   transform: scale(1.7) rotate(-3.5deg) translateY(-10px); }
+        3%    { opacity: 1;   transform: scale(.94) rotate(.6deg)   translateY(2px); }
+        4.3%  { opacity: 1;   transform: scale(1.03) rotate(-.3deg) translateY(0); }
+        5.5%  { opacity: 1;   transform: scale(1)   rotate(0)        translateY(0); }
+        70%   { opacity: 1;   transform: scale(1)   rotate(0)        translateY(0); }
+        92%   { opacity: 0;   transform: scale(1)   rotate(0)        translateY(0); }
+        100%  { opacity: 0;   transform: scale(1.7) rotate(-3.5deg) translateY(-10px); }
       }
 
       .ink {
         transform-box: fill-box; transform-origin: center;
         opacity: 0;
-        animation: ink-bleed .45s cubic-bezier(.2,.7,.3,1.2) 3.35s forwards;
+        animation: ink-bleed-loop 10s cubic-bezier(.2,.7,.3,1.2) infinite;
       }
-      @keyframes ink-bleed {
-        0%   { opacity: 0;   transform: scale(1.5) rotate(-18deg); }
-        70%  { opacity: .95; transform: scale(.97) rotate(-11deg); }
-        100% { opacity: .9;  transform: scale(1)   rotate(-12deg); }
+      @keyframes ink-bleed-loop {
+        0%, 33%  { opacity: 0;   transform: scale(1.5) rotate(-18deg); }
+        36.7%    { opacity: .95; transform: scale(.97) rotate(-11deg); }
+        38%      { opacity: .9;  transform: scale(1)   rotate(-12deg); }
+        70%      { opacity: .9;  transform: scale(1)   rotate(-12deg); }
+        92%      { opacity: 0;   transform: scale(1)   rotate(-12deg); }
+        100%     { opacity: 0;   transform: scale(1.5) rotate(-18deg); }
       }
 
       .postmark {
@@ -43,22 +49,22 @@
     </style>
 
     <pattern id="dispatchPaper" patternUnits="userSpaceOnUse" width="220" height="220">
-      <rect width="220" height="220" fill="#f3eede"/>
-      <circle cx="40"  cy="30"  r="0.7" fill="#c8c5b3" opacity="0.35"/>
-      <circle cx="120" cy="80"  r="0.6" fill="#c8c5b3" opacity="0.35"/>
-      <circle cx="170" cy="150" r="0.8" fill="#c8c5b3" opacity="0.35"/>
-      <circle cx="60"  cy="170" r="0.5" fill="#c8c5b3" opacity="0.35"/>
-      <circle cx="100" cy="190" r="0.4" fill="#c8c5b3" opacity="0.35"/>
+      <rect width="220" height="220" fill="#e3e9f0"/>
+      <circle cx="40"  cy="30"  r="0.7" fill="#b8c2cd" opacity="0.35"/>
+      <circle cx="120" cy="80"  r="0.6" fill="#b8c2cd" opacity="0.35"/>
+      <circle cx="170" cy="150" r="0.8" fill="#b8c2cd" opacity="0.35"/>
+      <circle cx="60"  cy="170" r="0.5" fill="#b8c2cd" opacity="0.35"/>
+      <circle cx="100" cy="190" r="0.4" fill="#b8c2cd" opacity="0.35"/>
     </pattern>
 
     <pattern id="airmailStripes" patternUnits="userSpaceOnUse" width="22" height="22" patternTransform="rotate(45)">
-      <rect width="22" height="22" fill="#f3eede"/>
+      <rect width="22" height="22" fill="#e3e9f0"/>
       <rect x="0"  y="0"  width="11" height="11" fill="#c54138"/>
       <rect x="11" y="11" width="11" height="11" fill="#1c3a58"/>
     </pattern>
   </defs>
 
-  <rect width="800" height="340" fill="#e6e2d4"/>
+  <rect width="800" height="340" fill="#cfd8e3"/>
 
   <g transform="translate(60, 24)">
     <rect width="680" height="292" fill="url(#dispatchPaper)" stroke="#1f1f1f" stroke-width="1.5"/>

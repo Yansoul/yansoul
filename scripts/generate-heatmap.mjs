@@ -36,7 +36,7 @@ const GRID_W = COLS * (CELL + GAP) - GAP // 581
 const GRID_H = ROWS * (CELL + GAP) - GAP // 75
 
 // ─── palette ─────────────────────────────────────────────────────────────────
-const LEVEL_COLORS = ['#eee6cf', '#b6c8d8', '#5a8aa8', '#1c3a58', '#0e1e30']
+const LEVEL_COLORS = ['#d4dde7', '#b6c8d8', '#5a8aa8', '#1c3a58', '#0e1e30']
 
 function level(count) {
   if (count === 0) return 0
@@ -182,7 +182,7 @@ function renderLegend(legendY) {
 function renderBadge(total, legendY) {
   return `  <g class="badge" transform="translate(132, ${legendY - 3})">
     <rect x="-52" y="-12" width="104" height="20" fill="#c54138"/>
-    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#f3eede" text-anchor="middle" font-style="italic">★ ${total} STAMPS</text>
+    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#e3e9f0" text-anchor="middle" font-style="italic">★ ${total} STAMPS</text>
   </g>`
 }
 
@@ -205,24 +205,29 @@ function buildSvg({ weeks, totalContributions }) {
       .cell {
         opacity: 0;
         transform-box: fill-box; transform-origin: center;
-        animation: cell-pop .42s cubic-bezier(.2,.7,.3,1.2) both;
+        animation: cell-pop-loop 10s cubic-bezier(.2,.7,.3,1.2) infinite;
         animation-delay: calc(.15s + var(--c) * 18ms);
       }
-      @keyframes cell-pop {
+      @keyframes cell-pop-loop {
         0%   { opacity: 0; transform: scale(.45) rotate(-6deg); }
-        65%  { opacity: 1; transform: scale(1.12) rotate(1deg); }
-        100% { opacity: 1; transform: scale(1) rotate(0); }
+        2.7% { opacity: 1; transform: scale(1.12) rotate(1deg); }
+        4.2% { opacity: 1; transform: scale(1) rotate(0); }
+        70%  { opacity: 1; transform: scale(1) rotate(0); }
+        92%  { opacity: 0; transform: scale(1) rotate(0); }
+        100% { opacity: 0; transform: scale(.45) rotate(-6deg); }
       }
 
       .sweep {
         opacity: 0;
-        animation: sweep 1.4s ease-in-out 1.35s 1 forwards;
+        animation: sweep-loop 10s linear infinite;
       }
-      @keyframes sweep {
-        0%   { opacity: 0;    transform: translateX(0); }
-        12%  { opacity: 0.55; }
-        88%  { opacity: 0.55; }
-        100% { opacity: 0;    transform: translateX(${GRID_W + 40}px); }
+      @keyframes sweep-loop {
+        0%, 22%  { opacity: 0;    transform: translateX(0); }
+        25%      { opacity: 0.55; transform: translateX(0); }
+        38%      { opacity: 0.55; transform: translateX(${GRID_W}px); }
+        42%      { opacity: 0;    transform: translateX(${GRID_W + 40}px); }
+        43%      { opacity: 0;    transform: translateX(0); }
+        100%     { opacity: 0;    transform: translateX(0); }
       }
 
       .badge {
@@ -240,25 +245,25 @@ function buildSvg({ weeks, totalContributions }) {
       }
     </style>
     <pattern id="hPaper" patternUnits="userSpaceOnUse" width="220" height="220">
-      <rect width="220" height="220" fill="#f3eede"/>
-      <circle cx="40"  cy="30"  r="0.7" fill="#c8c5b3" opacity="0.35"/>
-      <circle cx="120" cy="80"  r="0.6" fill="#c8c5b3" opacity="0.35"/>
-      <circle cx="170" cy="150" r="0.8" fill="#c8c5b3" opacity="0.35"/>
-      <circle cx="60"  cy="170" r="0.5" fill="#c8c5b3" opacity="0.35"/>
+      <rect width="220" height="220" fill="#e3e9f0"/>
+      <circle cx="40"  cy="30"  r="0.7" fill="#b8c2cd" opacity="0.35"/>
+      <circle cx="120" cy="80"  r="0.6" fill="#b8c2cd" opacity="0.35"/>
+      <circle cx="170" cy="150" r="0.8" fill="#b8c2cd" opacity="0.35"/>
+      <circle cx="60"  cy="170" r="0.5" fill="#b8c2cd" opacity="0.35"/>
     </pattern>
     <pattern id="hStripes" patternUnits="userSpaceOnUse" width="22" height="22" patternTransform="rotate(45)">
-      <rect width="22" height="22" fill="#f3eede"/>
+      <rect width="22" height="22" fill="#e3e9f0"/>
       <rect x="0"  y="0"  width="11" height="11" fill="#c54138"/>
       <rect x="11" y="11" width="11" height="11" fill="#1c3a58"/>
     </pattern>
     <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0"   stop-color="#f3eede" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#f3eede" stop-opacity="0.85"/>
-      <stop offset="1"   stop-color="#f3eede" stop-opacity="0"/>
+      <stop offset="0"   stop-color="#e3e9f0" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e3e9f0" stop-opacity="0.85"/>
+      <stop offset="1"   stop-color="#e3e9f0" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <rect width="${VIEW_W}" height="${VIEW_H}" fill="#e6e2d4"/>
+  <rect width="${VIEW_W}" height="${VIEW_H}" fill="#cfd8e3"/>
 
   <g transform="translate(${CARD_X}, ${CARD_Y})">
     <rect width="${CARD_W}" height="${CARD_H}" fill="url(#hPaper)" stroke="#1f1f1f" stroke-width="1.5"/>
