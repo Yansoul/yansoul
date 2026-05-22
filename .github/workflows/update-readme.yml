@@ -1,0 +1,53 @@
+name: Refresh README artifacts
+
+on:
+  schedule:
+    # Daily at 04:17 UTC (~ 12:17 Asia/Shanghai). Off-peak to avoid stampede.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-readme.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-readme
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Regenerate dispatch log
+        env:
+          # If GITHUB_TOKEN can't read your contribution data, swap in a
+          # fine-grained PAT with public read-only scope as GH_PAT secret.
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-dispatch.mjs
+
+      - name: Regenerate heatmap
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-heatmap.mjs
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain dispatch-log.svg heatmap.svg)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dispatch-log.svg heatmap.svg
+          git commit -m "chore: refresh dispatch log + heatmap [skip ci]"
+          git push

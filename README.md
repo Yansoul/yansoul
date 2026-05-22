@@ -13,7 +13,23 @@
 
 I'm **Yansoul**. I build small useful things — LLM-flavored test tooling, an automation framework or two, the occasional Vue / Next interface. Been shipping code since MMXIX.
 
-### · Recent dispatches
+### · On the wire
+
+<div align="center">
+
+<img src="./dispatch-log.svg" alt="Yansoul — recent commits, postal dispatch log" width="780"/>
+
+</div>
+
+### · Postage of MMXXVI
+
+<div align="center">
+
+<img src="./heatmap.svg" alt="Yansoul — contribution heatmap, trailing 365 days" width="780"/>
+
+</div>
+
+### · Notable parcels
 
 | repository | what's inside |
 |------------|---------------|
