@@ -36,7 +36,7 @@ const GRID_W = COLS * (CELL + GAP) - GAP // 581
 const GRID_H = ROWS * (CELL + GAP) - GAP // 75
 
 // ─── palette ─────────────────────────────────────────────────────────────────
-const LEVEL_COLORS = ['#f0e3c3', '#e3b58a', '#c47a4a', '#9a3a25', '#6a1010']
+const LEVEL_COLORS = ['#eee6cf', '#b6c8d8', '#5a8aa8', '#1c3a58', '#0e1e30']
 
 function level(count) {
   if (count === 0) return 0
@@ -127,7 +127,7 @@ function renderCells(weeks) {
       const lv = level(day.contributionCount)
       const x = GRID_X + w * (CELL + GAP)
       const y = GRID_Y + d * (CELL + GAP)
-      out.push(`    <rect class="cell" x="${x}" y="${y}" width="${CELL}" height="${CELL}" fill="${LEVEL_COLORS[lv]}" stroke="#3a2a1c" stroke-width="0.3" style="--c:${w}"><title>${day.date}: ${day.contributionCount}</title></rect>`)
+      out.push(`    <rect class="cell" x="${x}" y="${y}" width="${CELL}" height="${CELL}" fill="${LEVEL_COLORS[lv]}" stroke="#1f1f1f" stroke-width="0.3" style="--c:${w}"><title>${day.date}: ${day.contributionCount}</title></rect>`)
     }
   }
   return out.join('\n')
@@ -148,7 +148,7 @@ function renderMonths(weeks) {
         lastMonth = m
         continue
       }
-      out.push(`  <text x="${x}" y="${GRID_Y - 6}" class="mono" font-size="8" letter-spacing="1.5" fill="#7a1f1f">${MONTHS[m]}</text>`)
+      out.push(`  <text x="${x}" y="${GRID_Y - 6}" class="mono" font-size="8" letter-spacing="1.5" fill="#1c3a58">${MONTHS[m]}</text>`)
       lastMonth = m
     }
   }
@@ -163,26 +163,26 @@ function renderDayLabels() {
     [5, 'FRI'],
   ].map(([d, label]) => {
     const y = GRID_Y + d * (CELL + GAP) + 7
-    return `  <text x="${labelX}" y="${y}" class="mono" font-size="7" letter-spacing="1.2" fill="#7a1f1f" text-anchor="end">${label}</text>`
+    return `  <text x="${labelX}" y="${y}" class="mono" font-size="7" letter-spacing="1.2" fill="#1c3a58" text-anchor="end">${label}</text>`
   }).join('\n')
 }
 
 function renderLegend(legendY) {
   const legendX = 562
   const items = LEVEL_COLORS.map((c, i) =>
-    `  <rect x="${legendX + i * 12}" y="${legendY - 8}" width="9" height="9" fill="${c}" stroke="#3a2a1c" stroke-width="0.3"/>`
+    `  <rect x="${legendX + i * 12}" y="${legendY - 8}" width="9" height="9" fill="${c}" stroke="#1f1f1f" stroke-width="0.3"/>`
   ).join('\n')
   return [
-    `  <text x="${legendX - 4}" y="${legendY - 1}" class="mono" font-size="7" letter-spacing="1.2" fill="#3a2a1c" text-anchor="end">LESS</text>`,
+    `  <text x="${legendX - 4}" y="${legendY - 1}" class="mono" font-size="7" letter-spacing="1.2" fill="#1f1f1f" text-anchor="end">LESS</text>`,
     items,
-    `  <text x="${legendX + 5 * 12 + 4}" y="${legendY - 1}" class="mono" font-size="7" letter-spacing="1.2" fill="#3a2a1c">MORE</text>`,
+    `  <text x="${legendX + 5 * 12 + 4}" y="${legendY - 1}" class="mono" font-size="7" letter-spacing="1.2" fill="#1f1f1f">MORE</text>`,
   ].join('\n')
 }
 
 function renderBadge(total, legendY) {
   return `  <g class="badge" transform="translate(132, ${legendY - 3})">
-    <rect x="-52" y="-12" width="104" height="20" fill="#7a1f1f"/>
-    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#fff5e1" text-anchor="middle" font-style="italic">★ ${total} STAMPS</text>
+    <rect x="-52" y="-12" width="104" height="20" fill="#c54138"/>
+    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#f3eede" text-anchor="middle" font-style="italic">★ ${total} STAMPS</text>
   </g>`
 }
 
@@ -240,35 +240,35 @@ function buildSvg({ weeks, totalContributions }) {
       }
     </style>
     <pattern id="hPaper" patternUnits="userSpaceOnUse" width="220" height="220">
-      <rect width="220" height="220" fill="#fff5e1"/>
-      <circle cx="40"  cy="30"  r="0.7" fill="#d4c08a" opacity="0.35"/>
-      <circle cx="120" cy="80"  r="0.6" fill="#d4c08a" opacity="0.35"/>
-      <circle cx="170" cy="150" r="0.8" fill="#d4c08a" opacity="0.35"/>
-      <circle cx="60"  cy="170" r="0.5" fill="#d4c08a" opacity="0.35"/>
+      <rect width="220" height="220" fill="#f3eede"/>
+      <circle cx="40"  cy="30"  r="0.7" fill="#c8c5b3" opacity="0.35"/>
+      <circle cx="120" cy="80"  r="0.6" fill="#c8c5b3" opacity="0.35"/>
+      <circle cx="170" cy="150" r="0.8" fill="#c8c5b3" opacity="0.35"/>
+      <circle cx="60"  cy="170" r="0.5" fill="#c8c5b3" opacity="0.35"/>
     </pattern>
     <pattern id="hStripes" patternUnits="userSpaceOnUse" width="22" height="22" patternTransform="rotate(45)">
-      <rect width="22" height="22" fill="#fff5e1"/>
-      <rect x="0"  y="0"  width="11" height="11" fill="#7a1f1f"/>
-      <rect x="11" y="11" width="11" height="11" fill="#1f3a7a"/>
+      <rect width="22" height="22" fill="#f3eede"/>
+      <rect x="0"  y="0"  width="11" height="11" fill="#c54138"/>
+      <rect x="11" y="11" width="11" height="11" fill="#1c3a58"/>
     </pattern>
     <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0"   stop-color="#fff5e1" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#fff5e1" stop-opacity="0.85"/>
-      <stop offset="1"   stop-color="#fff5e1" stop-opacity="0"/>
+      <stop offset="0"   stop-color="#f3eede" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f3eede" stop-opacity="0.85"/>
+      <stop offset="1"   stop-color="#f3eede" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <rect width="${VIEW_W}" height="${VIEW_H}" fill="#e6dcc0"/>
+  <rect width="${VIEW_W}" height="${VIEW_H}" fill="#e6e2d4"/>
 
   <g transform="translate(${CARD_X}, ${CARD_Y})">
-    <rect width="${CARD_W}" height="${CARD_H}" fill="url(#hPaper)" stroke="#3a2a1c" stroke-width="1.5"/>
+    <rect width="${CARD_W}" height="${CARD_H}" fill="url(#hPaper)" stroke="#1f1f1f" stroke-width="1.5"/>
     <rect x="0" y="0"             width="${CARD_W}" height="10" fill="url(#hStripes)" opacity="0.85"/>
     <rect x="0" y="${CARD_H - 10}" width="${CARD_W}" height="10" fill="url(#hStripes)" opacity="0.85"/>
-    <rect x="18" y="22" width="${FRAME_W}" height="${FRAME_H}" fill="none" stroke="#7a1f1f" stroke-width="1"/>
+    <rect x="18" y="22" width="${FRAME_W}" height="${FRAME_H}" fill="none" stroke="#1c3a58" stroke-width="1"/>
 
-    <text x="30"  y="44" class="serif" font-size="11" letter-spacing="3.5" fill="#7a1f1f" font-weight="700">CONTRIBUTION ALMANAC</text>
-    <text x="${CARD_W - 30}" y="44" class="serif" font-size="10" letter-spacing="2" fill="#3a2a1c" text-anchor="end">TRAILING 365 DAYS · ROUTING ∞</text>
-    <line x1="30" y1="52" x2="${CARD_W - 30}" y2="52" stroke="#7a1f1f" stroke-width="0.5"/>
+    <text x="30"  y="44" class="serif" font-size="11" letter-spacing="3.5" fill="#1c3a58" font-weight="700">CONTRIBUTION ALMANAC</text>
+    <text x="${CARD_W - 30}" y="44" class="serif" font-size="10" letter-spacing="2" fill="#1f1f1f" text-anchor="end">TRAILING 365 DAYS · ROUTING ∞</text>
+    <line x1="30" y1="52" x2="${CARD_W - 30}" y2="52" stroke="#1c3a58" stroke-width="0.5"/>
   </g>
 
 ${months}

@@ -132,11 +132,11 @@ function renderRow(i, c) {
     : `${c.repo}: ${c.message}`
   const msg = truncate(msgRaw, MSG_MAX)
   return `    <g class="row r${i + 1}">
-      <rect x="28" y="${y}" width="74" height="22" fill="none" stroke="#7a1f1f" stroke-width="1.2"/>
-      <text x="65" y="${y + 15}" class="mono" font-size="9" letter-spacing="1.4" fill="#7a1f1f" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="${textY}" class="mono" font-size="11" fill="#3a2a1c">${escapeXml(c.sha)}</text>
-      <text x="206" y="${textY}" class="mono" font-size="11" fill="#3a2a1c">${escapeXml(msg)}</text>
-      <text x="650" y="${textY}" class="mono" font-size="10" fill="#3a2a1c" text-anchor="end">${escapeXml(relativeTime(c.when))}</text>
+      <rect x="28" y="${y}" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
+      <text x="65" y="${y + 15}" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
+      <text x="118" y="${textY}" class="mono" font-size="11" fill="#1f1f1f">${escapeXml(c.sha)}</text>
+      <text x="206" y="${textY}" class="mono" font-size="11" fill="#1f1f1f">${escapeXml(msg)}</text>
+      <text x="650" y="${textY}" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">${escapeXml(relativeTime(c.when))}</text>
     </g>`
 }
 
@@ -144,11 +144,11 @@ function renderEmptyRow(i) {
   const y = 86 + i * 32
   const textY = y + 16
   return `    <g class="row r${i + 1}">
-      <rect x="28" y="${y}" width="74" height="22" fill="none" stroke="#7a1f1f" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.4"/>
-      <text x="65" y="${y + 15}" class="mono" font-size="9" letter-spacing="1.4" fill="#7a1f1f" font-weight="700" text-anchor="middle" opacity="0.4">- PEND -</text>
-      <text x="118" y="${textY}" class="mono" font-size="11" fill="#3a2a1c" opacity="0.45">·······</text>
-      <text x="206" y="${textY}" class="mono" font-size="11" fill="#3a2a1c" opacity="0.45">awaiting next dispatch</text>
-      <text x="650" y="${textY}" class="mono" font-size="10" fill="#3a2a1c" text-anchor="end" opacity="0.45">—</text>
+      <rect x="28" y="${y}" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.4"/>
+      <text x="65" y="${y + 15}" class="mono" font-size="9" letter-spacing="1.4" fill="#1c3a58" font-weight="700" text-anchor="middle" opacity="0.4">- PEND -</text>
+      <text x="118" y="${textY}" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">·······</text>
+      <text x="206" y="${textY}" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">awaiting next dispatch</text>
+      <text x="650" y="${textY}" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end" opacity="0.45">—</text>
     </g>`
 }
 
