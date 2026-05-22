@@ -88,40 +88,40 @@
     <g class="row r1">
       <rect x="28" y="86" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">2c4ed28</text>
-      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">refactor: recolor to airmail navy + postal red pa…</text>
+      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">bf04711</text>
+      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">refactor: pale airmail blue palette + looping ani…</text>
       <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 min</text>
     </g>
 
     <g class="row r2">
       <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">d26c551</text>
-      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">feat: add animated dispatch log + contribution he…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">39 min</text>
+      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">2c4ed28</text>
+      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">refactor: recolor to airmail navy + postal red pa…</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 hour</text>
     </g>
 
     <g class="row r3">
       <rect x="28" y="150" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">7b34cab</text>
-      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">feat: design profile readme as vintage postage st…</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">18 hours</text>
+      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">d26c551</text>
+      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">feat: add animated dispatch log + contribution he…</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 hours</text>
     </g>
 
     <g class="row r4">
       <rect x="28" y="182" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="197" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">7179a63</text>
-      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">linkedin-corivo-prospecting: fix: avoid LinkedIn …</text>
-      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">4 days</text>
+      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">7b34cab</text>
+      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">feat: design profile readme as vintage postage st…</text>
+      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">20 hours</text>
     </g>
 
     <g class="row r5">
       <rect x="28" y="214" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">2b6c768</text>
-      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">linkedin-corivo-prospecting: fix: let dotenv over…</text>
+      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">7179a63</text>
+      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">linkedin-corivo-prospecting: fix: avoid LinkedIn …</text>
       <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">4 days</text>
     </g>
     <!-- COMMITS:END -->
