@@ -88,41 +88,41 @@
     <g class="row r1">
       <rect x="28" y="86" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">0735093</text>
-      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">time-overlay: Improve Time Overlay SEO density</text>
-      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">3 hours</text>
+      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">f3abe15</text>
+      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">corivo-desktop: refactor(desktop): remove in-flig…</text>
+      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 hour</text>
     </g>
 
     <g class="row r2">
       <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">0506fdb</text>
-      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">corivo-desktop: [codex] workflow runtime and crea…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">4 hours</text>
+      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">74d79b7</text>
+      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">corivo-desktop: feat(desktop): add P/A/D shortcut…</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">18 hours</text>
     </g>
 
     <g class="row r3">
       <rect x="28" y="150" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">0793151</text>
-      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">corivo-desktop: feat(desktop): rename workflows →…</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">18 hours</text>
+      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">0735093</text>
+      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">time-overlay: Improve Time Overlay SEO density</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r4">
       <rect x="28" y="182" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="197" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">9a1b29d</text>
-      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">corivo-desktop: chore: prune pnpm-lock of non-OSS…</text>
-      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">23 hours</text>
+      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">0506fdb</text>
+      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">corivo-desktop: [codex] workflow runtime and crea…</text>
+      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r5">
       <rect x="28" y="214" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">75b6d30</text>
-      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">time-overlay: Add Google Analytics tag</text>
-      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 days</text>
+      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">0793151</text>
+      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">corivo-desktop: feat(desktop): rename workflows →…</text>
+      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
     <!-- COMMITS:END -->
 
