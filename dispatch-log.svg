@@ -90,7 +90,7 @@
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">5e37d8b</text>
       <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat(analytics): integrate PostHog …</text>
-      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">4 days</text>
+      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">5 days</text>
     </g>
 
     <g class="row r2">
@@ -98,7 +98,7 @@
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">5d0f92b</text>
       <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">time-overlay: fix(analytics): wrap posthog init i…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">4 days</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">5 days</text>
     </g>
 
     <g class="row r3">
