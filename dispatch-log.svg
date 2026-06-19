@@ -94,11 +94,11 @@
     </g>
 
     <g class="row r2">
-      <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
-      <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">5d0f92b</text>
-      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">time-overlay: fix(analytics): wrap posthog init i…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
+      <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.4"/>
+      <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#1c3a58" font-weight="700" text-anchor="middle" opacity="0.4">- PEND -</text>
+      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">·······</text>
+      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">awaiting next dispatch</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end" opacity="0.45">—</text>
     </g>
 
     <g class="row r3">
