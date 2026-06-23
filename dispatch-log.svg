@@ -88,25 +88,25 @@
     <g class="row r1">
       <rect x="28" y="86" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">5e37d8b</text>
-      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat(analytics): integrate PostHog …</text>
-      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
+      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">f787a4b</text>
+      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat(geo): comparison page, page sc…</text>
+      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 hours</text>
     </g>
 
     <g class="row r2">
-      <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.4"/>
-      <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#1c3a58" font-weight="700" text-anchor="middle" opacity="0.4">- PEND -</text>
-      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">·······</text>
-      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">awaiting next dispatch</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end" opacity="0.45">—</text>
+      <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
+      <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
+      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">7710db7</text>
+      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">time-overlay: refactor(geo): address review — dro…</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 hours</text>
     </g>
 
     <g class="row r3">
-      <rect x="28" y="150" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.4"/>
-      <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#1c3a58" font-weight="700" text-anchor="middle" opacity="0.4">- PEND -</text>
-      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">·······</text>
-      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">awaiting next dispatch</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end" opacity="0.45">—</text>
+      <rect x="28" y="150" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
+      <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
+      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">03e4528</text>
+      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">time-overlay: chore(seo): remove zero-traffic /st…</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">17 hours</text>
     </g>
 
     <g class="row r4">
