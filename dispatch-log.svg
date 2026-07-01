@@ -90,7 +90,7 @@
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">2edf687</text>
       <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">Doubao-ime-hammerspoon: feat: 右⌘ 固定在微信↔豆包之间切换，切回不…</text>
-      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
+      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 days</text>
     </g>
 
     <g class="row r2">
@@ -98,7 +98,7 @@
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">c8c8938</text>
       <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">Doubao-ime-hammerspoon: feat: 改用右⌘切输入法、Fn 触发豆包语音，…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">3 days</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">5 days</text>
     </g>
 
     <g class="row r3">
@@ -106,7 +106,7 @@
       <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">76ee627</text>
       <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat: add simplified chinese locale…</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">4 days</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">5 days</text>
     </g>
 
     <g class="row r4">
@@ -114,7 +114,7 @@
       <text x="65" y="197" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">70edfe6</text>
       <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">Doubao-ime-hammerspoon: feat: 改用 Fn 一键唤起豆包语音，按 so…</text>
-      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">5 days</text>
+      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
     </g>
 
     <g class="row r5">
@@ -122,7 +122,7 @@
       <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">1038a38</text>
       <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">video-gen: ci(release): auto-publish the release …</text>
-      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 days</text>
+      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
     </g>
     <!-- COMMITS:END -->
 
