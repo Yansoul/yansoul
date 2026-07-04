@@ -465,6 +465,7 @@
     <rect class="cell" x="674" y="121" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-07-01: 8</title></rect>
     <rect class="cell" x="674" y="132" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-07-02: 11</title></rect>
     <rect class="cell" x="674" y="143" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-07-03: 8</title></rect>
+    <rect class="cell" x="674" y="154" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-07-04: 0</title></rect>
 
   <rect class="sweep" x="22" y="86" width="80" height="79" fill="url(#sweepGrad)"/>
 
