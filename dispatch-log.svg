@@ -88,41 +88,41 @@
     <g class="row r1">
       <rect x="28" y="86" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">52d206b</text>
-      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">time-overlay: Improve timer overlay SEO guides</text>
-      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
+      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">d1335c4</text>
+      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">video-gen: fix(ci): serialize draft release creat…</text>
+      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">13 hours</text>
     </g>
 
     <g class="row r2">
       <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">2edf687</text>
-      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">Doubao-ime-hammerspoon: feat: 右⌘ 固定在微信↔豆包之间切换，切回不…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 weeks</text>
+      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">18dcb67</text>
+      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">video-gen: fix(ci): pin release verification by id</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">13 hours</text>
     </g>
 
     <g class="row r3">
       <rect x="28" y="150" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">c8c8938</text>
-      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">Doubao-ime-hammerspoon: feat: 改用右⌘切输入法、Fn 触发豆包语音，…</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 weeks</text>
+      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">ec02576</text>
+      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">video-gen: fix(desktop): make updates non-blockin…</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">13 hours</text>
     </g>
 
     <g class="row r4">
       <rect x="28" y="182" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="197" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">76ee627</text>
-      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat: add simplified chinese locale…</text>
-      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 weeks</text>
+      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">b982a14</text>
+      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">video-gen: fix(release): harden background update…</text>
+      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">13 hours</text>
     </g>
 
     <g class="row r5">
-      <rect x="28" y="214" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.4"/>
-      <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#1c3a58" font-weight="700" text-anchor="middle" opacity="0.4">- PEND -</text>
-      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">·······</text>
-      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">awaiting next dispatch</text>
-      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end" opacity="0.45">—</text>
+      <rect x="28" y="214" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
+      <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
+      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">4ab6055</text>
+      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">video-gen: fix(ci): harden desktop publication ga…</text>
+      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">14 hours</text>
     </g>
     <!-- COMMITS:END -->
 
