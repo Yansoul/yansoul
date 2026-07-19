@@ -90,7 +90,7 @@
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">98b8060</text>
       <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">video-gen: chore(release): approve v0.2.4 distrib…</text>
-      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">14 hours</text>
+      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r2">
@@ -98,7 +98,7 @@
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">8039cf8</text>
       <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">video-gen: chore(release): approve v0.2.4 distrib…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">14 hours</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r3">
@@ -106,7 +106,7 @@
       <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">ac12eb3</text>
       <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">video-gen: feat(cli): ship headless video product…</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">21 hours</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r4">
@@ -114,7 +114,7 @@
       <text x="65" y="197" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">f9751e3</text>
       <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">video-gen: merge: sync main and harden CLI release</text>
-      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">21 hours</text>
+      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r5">
@@ -122,7 +122,7 @@
       <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">d1335c4</text>
       <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">video-gen: fix(ci): serialize draft release creat…</text>
-      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 days</text>
+      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">3 days</text>
     </g>
     <!-- COMMITS:END -->
 
