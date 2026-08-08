@@ -464,7 +464,8 @@
     <rect class="cell" x="674" y="110" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-08-04: 21</title></rect>
     <rect class="cell" x="674" y="121" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-08-05: 33</title></rect>
     <rect class="cell" x="674" y="132" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-08-06: 11</title></rect>
-    <rect class="cell" x="674" y="143" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-08-07: 0</title></rect>
+    <rect class="cell" x="674" y="143" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-08-07: 2</title></rect>
+    <rect class="cell" x="674" y="154" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-08-08: 2</title></rect>
 
   <rect class="sweep" x="22" y="86" width="80" height="79" fill="url(#sweepGrad)"/>
 
@@ -478,6 +479,6 @@
 
   <g class="badge" transform="translate(132, 169)">
     <rect x="-52" y="-12" width="104" height="20" fill="#c54138"/>
-    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#e3e9f0" text-anchor="middle" font-style="italic">★ 1,964 STAMPS</text>
+    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#e3e9f0" text-anchor="middle" font-style="italic">★ 1,968 STAMPS</text>
   </g>
 </svg>
