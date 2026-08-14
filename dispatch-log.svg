@@ -90,7 +90,7 @@
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">67b5f87</text>
       <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">Cap: fix(gaze): keep pose gate stable across roll…</text>
-      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 days</text>
+      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">3 days</text>
     </g>
 
     <g class="row r2">
@@ -98,7 +98,7 @@
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">62ab0a4</text>
       <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">Cap: style(recorder): format gaze protocol fixtur…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 days</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">3 days</text>
     </g>
 
     <g class="row r3">
@@ -106,7 +106,7 @@
       <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">2e03530</text>
       <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">Cap: feat(ci): explicitly attest build provenance…</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 days</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
     </g>
 
     <g class="row r4">
@@ -114,15 +114,15 @@
       <text x="65" y="197" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
       <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">29a5d8a</text>
       <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">Cap: feat(ci): explicitly attest build provenance…</text>
-      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 days</text>
+      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
     </g>
 
     <g class="row r5">
-      <rect x="28" y="214" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
-      <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">4434dec</text>
-      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">Cap: fix(recorder): give manifest tool dll search…</text>
-      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 days</text>
+      <rect x="28" y="214" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.4"/>
+      <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#1c3a58" font-weight="700" text-anchor="middle" opacity="0.4">- PEND -</text>
+      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">·······</text>
+      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f" opacity="0.45">awaiting next dispatch</text>
+      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end" opacity="0.45">—</text>
     </g>
     <!-- COMMITS:END -->
 
