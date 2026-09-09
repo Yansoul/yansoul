@@ -129,7 +129,7 @@
     <rect class="cell" x="146" y="121" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:4"><title>2025-10-08: 0</title></rect>
     <rect class="cell" x="146" y="132" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:4"><title>2025-10-09: 0</title></rect>
     <rect class="cell" x="146" y="143" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:4"><title>2025-10-10: 0</title></rect>
-    <rect class="cell" x="146" y="154" width="9" height="9" fill="#5a8aa8" stroke="#1f1f1f" stroke-width="0.3" style="--c:4"><title>2025-10-11: 5</title></rect>
+    <rect class="cell" x="146" y="154" width="9" height="9" fill="#5a8aa8" stroke="#1f1f1f" stroke-width="0.3" style="--c:4"><title>2025-10-11: 4</title></rect>
     <rect class="cell" x="157" y="88" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:5"><title>2025-10-12: 0</title></rect>
     <rect class="cell" x="157" y="99" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:5"><title>2025-10-13: 0</title></rect>
     <rect class="cell" x="157" y="110" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:5"><title>2025-10-14: 0</title></rect>
@@ -205,7 +205,7 @@
     <rect class="cell" x="267" y="110" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:15"><title>2025-12-23: 0</title></rect>
     <rect class="cell" x="267" y="121" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:15"><title>2025-12-24: 0</title></rect>
     <rect class="cell" x="267" y="132" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:15"><title>2025-12-25: 1</title></rect>
-    <rect class="cell" x="267" y="143" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:15"><title>2025-12-26: 3</title></rect>
+    <rect class="cell" x="267" y="143" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:15"><title>2025-12-26: 2</title></rect>
     <rect class="cell" x="267" y="154" width="9" height="9" fill="#5a8aa8" stroke="#1f1f1f" stroke-width="0.3" style="--c:15"><title>2025-12-27: 5</title></rect>
     <rect class="cell" x="278" y="88" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:16"><title>2025-12-28: 0</title></rect>
     <rect class="cell" x="278" y="99" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:16"><title>2025-12-29: 1</title></rect>
@@ -265,8 +265,8 @@
     <rect class="cell" x="355" y="154" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:23"><title>2026-02-21: 0</title></rect>
     <rect class="cell" x="366" y="88" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-22: 0</title></rect>
     <rect class="cell" x="366" y="99" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-23: 1</title></rect>
-    <rect class="cell" x="366" y="110" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-24: 2</title></rect>
-    <rect class="cell" x="366" y="121" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-25: 13</title></rect>
+    <rect class="cell" x="366" y="110" width="9" height="9" fill="#b6c8d8" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-24: 1</title></rect>
+    <rect class="cell" x="366" y="121" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-25: 8</title></rect>
     <rect class="cell" x="366" y="132" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-26: 0</title></rect>
     <rect class="cell" x="366" y="143" width="9" height="9" fill="#5a8aa8" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-27: 4</title></rect>
     <rect class="cell" x="366" y="154" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:24"><title>2026-02-28: 0</title></rect>
@@ -460,8 +460,9 @@
     <rect class="cell" x="663" y="143" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:51"><title>2026-09-04: 13</title></rect>
     <rect class="cell" x="663" y="154" width="9" height="9" fill="#5a8aa8" stroke="#1f1f1f" stroke-width="0.3" style="--c:51"><title>2026-09-05: 6</title></rect>
     <rect class="cell" x="674" y="88" width="9" height="9" fill="#5a8aa8" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-09-06: 6</title></rect>
-    <rect class="cell" x="674" y="99" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-09-07: 35</title></rect>
-    <rect class="cell" x="674" y="110" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-09-08: 11</title></rect>
+    <rect class="cell" x="674" y="99" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-09-07: 38</title></rect>
+    <rect class="cell" x="674" y="110" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-09-08: 23</title></rect>
+    <rect class="cell" x="674" y="121" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-09-09: 13</title></rect>
 
   <rect class="sweep" x="22" y="86" width="80" height="79" fill="url(#sweepGrad)"/>
 
@@ -475,6 +476,6 @@
 
   <g class="badge" transform="translate(132, 169)">
     <rect x="-52" y="-12" width="104" height="20" fill="#c54138"/>
-    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#e3e9f0" text-anchor="middle" font-style="italic">★ 2,957 STAMPS</text>
+    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#e3e9f0" text-anchor="middle" font-style="italic">★ 2,977 STAMPS</text>
   </g>
 </svg>
