@@ -88,41 +88,41 @@
     <g class="row r1">
       <rect x="28" y="86" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">d69b27c</text>
-      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">time-overlay: chore: ignore local agent tooling a…</text>
+      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">90e6354</text>
+      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">time-overlay: fix(pro): log bounded pricing failu…</text>
       <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r2">
       <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">aa2db32</text>
-      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">time-overlay: fix(pro): expand coupon product res…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">8 hours</text>
+      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">3557aa0</text>
+      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat(pro): add regional prices to P…</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r3">
       <rect x="28" y="150" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">3f08eaa</text>
-      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">time-overlay: fix: reject percent-encoded off-sit…</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 days</text>
+      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">4c8e410</text>
+      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">video-gen: docs(skill): codify video production d…</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
 
     <g class="row r4">
       <rect x="28" y="182" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="197" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">84e05de</text>
-      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">time-overlay: Merge remote-tracking branch &apos;origi…</text>
-      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
+      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">d69b27c</text>
+      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">time-overlay: chore: ignore local agent tooling a…</text>
+      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">2 days</text>
     </g>
 
     <g class="row r5">
       <rect x="28" y="214" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">d5569c0</text>
-      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">time-overlay: fix(release): restore filePathMap d…</text>
-      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">18 hours</text>
+      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">aa2db32</text>
+      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">time-overlay: fix(pro): expand coupon product res…</text>
+      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 day</text>
     </g>
     <!-- COMMITS:END -->
 
