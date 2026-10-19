@@ -352,7 +352,7 @@
     <rect class="cell" x="498" y="110" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:36"><title>2026-06-30: 10</title></rect>
     <rect class="cell" x="498" y="121" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:36"><title>2026-07-01: 17</title></rect>
     <rect class="cell" x="498" y="132" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:36"><title>2026-07-02: 42</title></rect>
-    <rect class="cell" x="498" y="143" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:36"><title>2026-07-03: 9</title></rect>
+    <rect class="cell" x="498" y="143" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:36"><title>2026-07-03: 10</title></rect>
     <rect class="cell" x="498" y="154" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:36"><title>2026-07-04: 0</title></rect>
     <rect class="cell" x="509" y="88" width="9" height="9" fill="#d4dde7" stroke="#1f1f1f" stroke-width="0.3" style="--c:37"><title>2026-07-05: 0</title></rect>
     <rect class="cell" x="509" y="99" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:37"><title>2026-07-06: 16</title></rect>
@@ -458,8 +458,9 @@
     <rect class="cell" x="663" y="121" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:51"><title>2026-10-14: 98</title></rect>
     <rect class="cell" x="663" y="132" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:51"><title>2026-10-15: 155</title></rect>
     <rect class="cell" x="663" y="143" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:51"><title>2026-10-16: 40</title></rect>
-    <rect class="cell" x="663" y="154" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:51"><title>2026-10-17: 42</title></rect>
-    <rect class="cell" x="674" y="88" width="9" height="9" fill="#1c3a58" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-10-18: 9</title></rect>
+    <rect class="cell" x="663" y="154" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:51"><title>2026-10-17: 43</title></rect>
+    <rect class="cell" x="674" y="88" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-10-18: 107</title></rect>
+    <rect class="cell" x="674" y="99" width="9" height="9" fill="#0e1e30" stroke="#1f1f1f" stroke-width="0.3" style="--c:52"><title>2026-10-19: 51</title></rect>
 
   <rect class="sweep" x="22" y="86" width="80" height="79" fill="url(#sweepGrad)"/>
 
@@ -473,6 +474,6 @@
 
   <g class="badge" transform="translate(132, 169)">
     <rect x="-52" y="-12" width="104" height="20" fill="#c54138"/>
-    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#e3e9f0" text-anchor="middle" font-style="italic">★ 4,216 STAMPS</text>
+    <text x="0" y="3" class="serif" font-size="11" font-weight="900" fill="#e3e9f0" text-anchor="middle" font-style="italic">★ 4,367 STAMPS</text>
   </g>
 </svg>
