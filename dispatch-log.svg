@@ -88,41 +88,41 @@
     <g class="row r1">
       <rect x="28" y="86" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="101" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">367031c</text>
-      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat(pro): auto-open paywall when a…</text>
-      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">3 days</text>
+      <text x="118" y="102" class="mono" font-size="11" fill="#1f1f1f">0498b6d</text>
+      <text x="206" y="102" class="mono" font-size="11" fill="#1f1f1f">herdr-dispatch: feat: add persistent Multica to H…</text>
+      <text x="650" y="102" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 hours</text>
     </g>
 
     <g class="row r2">
       <rect x="28" y="118" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="133" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">336c292</text>
-      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat(pro): sharpen paywall for conv…</text>
-      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">3 days</text>
+      <text x="118" y="134" class="mono" font-size="11" fill="#1f1f1f">263a62f</text>
+      <text x="206" y="134" class="mono" font-size="11" fill="#1f1f1f">herdr-dispatch: test: cover deduplication, approv…</text>
+      <text x="650" y="134" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 hours</text>
     </g>
 
     <g class="row r3">
       <rect x="28" y="150" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="165" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">b949fc4</text>
-      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat(export): stream long MP4 expor…</text>
-      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">3 days</text>
+      <text x="118" y="166" class="mono" font-size="11" fill="#1f1f1f">d1f1eac</text>
+      <text x="206" y="166" class="mono" font-size="11" fill="#1f1f1f">herdr-dispatch: docs: provide isolated bridge set…</text>
+      <text x="650" y="166" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 hours</text>
     </g>
 
     <g class="row r4">
       <rect x="28" y="182" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="197" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">90e6354</text>
-      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">time-overlay: fix(pro): log bounded pricing failu…</text>
-      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
+      <text x="118" y="198" class="mono" font-size="11" fill="#1f1f1f">d2b0784</text>
+      <text x="206" y="198" class="mono" font-size="11" fill="#1f1f1f">herdr-dispatch: ci: compile and test Multica brid…</text>
+      <text x="650" y="198" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 hours</text>
     </g>
 
     <g class="row r5">
       <rect x="28" y="214" width="74" height="22" fill="none" stroke="#1c3a58" stroke-width="1.2"/>
       <text x="65" y="229" class="mono" font-size="9" letter-spacing="1.4" fill="#c54138" font-weight="700" text-anchor="middle">★ POSTED</text>
-      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">3557aa0</text>
-      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">time-overlay: feat(pro): add regional prices to P…</text>
-      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">1 week</text>
+      <text x="118" y="230" class="mono" font-size="11" fill="#1f1f1f">c8ba1f2</text>
+      <text x="206" y="230" class="mono" font-size="11" fill="#1f1f1f">herdr-dispatch: docs: provide isolated bridge set…</text>
+      <text x="650" y="230" class="mono" font-size="10" fill="#1f1f1f" text-anchor="end">6 hours</text>
     </g>
     <!-- COMMITS:END -->
 
